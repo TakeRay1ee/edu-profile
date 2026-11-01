@@ -8,8 +8,6 @@
 
 推荐使用手机浏览器访问。桌面浏览器可切换到 375–430px 的移动视口查看。
 
-> 网站由 GitHub Pages 托管。私人仓库能否继续提供 Pages，取决于账号套餐和 GitHub 的服务规则；仓库设为私人并不等于网站或分享链接具有访问权限保护。
-
 ## 页面与功能
 
 | 页面 | 内容 |
@@ -66,10 +64,3 @@ node scripts/check-mobile.cjs
 | `sw.js` | 静态资源缓存脚本 |
 | `scripts/check-mobile.cjs` | 页面及分享模板的脚本检查 |
 
-## 部署
-
-当前 GitHub Pages 从 `main` 分支的根目录发布。更新代码并推送后，可在仓库的 **Actions** 中查看构建结果，在 **Settings → Pages** 中检查发布地址和可用状态。
-
-## 参考项目
-
-原始参考：[wang-tong/edu-profile](https://github.com/wang-tong/edu-profile)。本版本在其基础上调整手机端布局、编辑入口和静态分享方式。
